@@ -10,7 +10,7 @@ const PlayerOverlay: React.FC<PlayerProps> = ({ song, onClose, isPlaying, setIsP
   return (
     <div className="absolute inset-0 bg-gradient-to-b from-gray-900 to-black z-50 flex flex-col animate-slide-up overflow-hidden">
       {/* Header */}
-      <div className="flex justify-between items-center px-4 pt-12 pb-4 shrink-0">
+      <div className="flex justify-between items-center px-4 pt-4 pb-4 shrink-0">
         <button onClick={onClose} className="p-2 text-white/90 active:scale-95 transition-transform">
           <ChevronDown size={28} />
         </button>

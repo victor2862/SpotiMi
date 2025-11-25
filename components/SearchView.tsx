@@ -14,7 +14,7 @@ const SearchView: React.FC = () => {
   ];
 
   return (
-    <div className="flex flex-col min-h-screen bg-spotify-base pb-24 px-4 pt-12">
+    <div className="flex flex-col min-h-screen bg-spotify-base pb-24 px-4 pt-4">
       <h1 className="text-3xl font-bold text-white mb-6">Buscar</h1>
 
       {/* Search Bar */}

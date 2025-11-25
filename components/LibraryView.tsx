@@ -9,7 +9,7 @@ interface LibraryViewProps {
 
 const LibraryView: React.FC<LibraryViewProps> = ({ onSongSelect }) => {
   return (
-    <div className="flex flex-col min-h-screen bg-spotify-base pb-24 px-4 pt-12">
+    <div className="flex flex-col min-h-screen bg-spotify-base pb-24 px-4 pt-4">
       {/* Header */}
       <div className="flex justify-between items-center mb-6">
         <div className="flex items-center gap-3">

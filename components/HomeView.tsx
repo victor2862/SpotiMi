@@ -15,7 +15,7 @@ const HomeView: React.FC = () => {
   return (
     <div className="flex flex-col min-h-screen bg-gradient-to-b from-[#330000] to-spotify-base pb-24">
       {/* Header */}
-      <div className="flex justify-between items-center px-4 pt-12 pb-6">
+      <div className="flex justify-between items-center px-4 pt-4 pb-6">
         <h1 className="text-2xl font-bold text-white">Boa tarde</h1>
         <div className="flex gap-4 text-white">
           <Bell size={24} />
